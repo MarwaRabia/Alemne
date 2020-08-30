@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/mSearch"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+
+    <item
+        android:id="@+id/mShare"
+        android:title="مشاركة التطبيق"
+        app:showAsAction="never"
+        android:icon="@drawable/share"
+        />
+    <item
+        android:id="@+id/minfo"
+        android:title="عن التطبيق"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:iconTintMode="screen"
+        app:showAsAction="never"/>
+
+</menu>
